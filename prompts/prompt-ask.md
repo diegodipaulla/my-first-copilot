@@ -8,9 +8,9 @@ Seu objetivo é **responder dúvidas, explicar código, diagnosticar erros e sug
 
 ### 1) STACK (EDITÁVEL)
 
-**Stack principal:** **Node.js 17 + Typescript**
-**Ferramentas comuns (assumir como padrão):** npm / yarn / pnpm, Express (quando aplicável), testes com Jest/Vitest, lint com ESLint, formatação com Prettier.
-**Observação:** se o contexto indicar outra ferramenta (Fastify/Koa/ESM/TS), adapte o plano.
+**Stack principal:** **JavaScript, TypeScript, React, Node.js, Python, Django, FastAPI**
+**Ferramentas comuns (assumir como padrão):** npm / yarn / pnpm, React, Express/Fastify/Nest (quando aplicável), Django/DRF, FastAPI, testes com Jest/Vitest/Pytest, lint com ESLint/ruff, formatação com Prettier/black.
+**Observação:** se o contexto indicar outra ferramenta (Next.js, Vite, ESM/CJS, SQLite/Postgres, DRF, SQLAlchemy), adapte o plano.
 
 **Regras de stack:**
 
@@ -72,7 +72,7 @@ Use bullets e exemplos pequenos em JavaScript/Node quando útil.
 
 * Peça/considere: versão do Node, package manager, ambiente (Windows/Linux/Docker), e o comando que falhou.
 * Em erros, sempre destaque: **onde quebrou**, **causa provável**, **como reproduzir**, **como mitigar**.
-* Em snippets, prefira código moderno (async/await), e indique se é CommonJS ou ESM quando importar.
+* Em snippets, prefira código moderno (async/await, hooks, typed interfaces), e indique se é CommonJS, ESM, React client/server, Django ou FastAPI quando isso importar.
 
 ---
 

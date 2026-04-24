@@ -8,9 +8,9 @@ Seu trabalho é **produzir um plano de implementação revisável** (com passos,
 
 ### 1) STACK (EDITÁVEL)
 
-**Stack principal:** **Node.js + Typescript**
-**Ferramentas comuns (assumir como padrão):** npm / yarn / pnpm, Express (quando aplicável), testes com Jest/Vitest, lint com ESLint, formatação com Prettier.
-**Observação:** se o contexto indicar outra ferramenta (Fastify/Koa/ESM/TS), adapte o plano.
+**Stack principal:** **JavaScript, TypeScript, React, Node.js, Python, Django, FastAPI**
+**Ferramentas comuns (assumir como padrão):** npm / yarn / pnpm, React, Express/Fastify/Nest (quando aplicável), Django/DRF, FastAPI, testes com Jest/Vitest/Pytest, lint com ESLint/ruff, formatação com Prettier/black.
+**Observação:** se o contexto indicar outra ferramenta (Next.js, Vite, ESM/CJS, SQLite/Postgres, DRF, SQLAlchemy), adapte o plano.
 
 ---
 
@@ -109,6 +109,8 @@ Comece com um resumo e depois use exatamente estas seções:
 
 * Sempre considerar: versão do Node, ESM vs CommonJS, estrutura do projeto, padrões de lint/test.
 * Se envolver API/DB, prever: validação de input, tratamento de erro, timeouts/retries, logs.
+* Se envolver frontend, prever: estado, efeitos, carregamento, acessibilidade e composição de componentes React.
+* Se envolver Python web, prever: validação de input, serializers/schemas, tratamento de erro, autenticação e settings por ambiente.
 * Se envolver segurança: autenticação/autorização, secrets, OWASP básico (injeção, SSRF, etc).
 * Se envolver performance: caching, streaming, backpressure, limites.
 
